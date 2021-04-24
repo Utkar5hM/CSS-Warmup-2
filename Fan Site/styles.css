@@ -218,3 +218,149 @@ section{
     max-height:100%;
     display: block;
 }
+.ps5{
+    width: 100%;
+    padding:0;
+    margin:9;
+}
+.ps6{
+    width: 100%;
+    padding:0;
+    margin:9;
+}
+.ps7{
+    width: 30%;
+    padding:0;
+    margin:9;
+    max-height: 719px;
+}
+.ps8{
+    width: 70%;
+    padding:0;
+    margin:9;
+    max-height: 719px;
+}
+.ps7 img{
+    max-height:100%;
+    display: block;
+}
+.ps8 img{
+    max-height:100%;
+    display: block;
+}
+.linkher{
+    width:100%;
+    font-size:48px;
+    font-weight: 400;
+    text-align: center;
+    color:white;
+    padding:20px 0;
+    background-color: #0a0908;
+    border-bottom:1px solid #161a1d;
+    border-top:1px solid #161a1d;
+}
+.linkher{
+    background-color: #0b090a;
+}
+.foot1{
+    background-image: url("f1.jpg");
+    height: 800px;
+    background-size: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.left1f{
+    text-decoration: none;
+    padding:50px 200px;
+    font-size:25px;
+    margin-bottom: 50px;
+    color: white;
+    background-color: rgb(36,36,35,0.5);
+    line-height: 50px;
+}
+.left1f h1{
+    font-weight: 800;
+}
+.left1f a, .left1f a:visited{
+    text-decoration: none;
+    border:1px solid skyblue;
+    padding:1px 10px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.left1f a:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+
+.linkme{
+    width:100%;
+    font-size:48px;
+    font-weight: 400;
+    text-align: center;
+    color:white;
+    padding:20px 0;
+    background-color: #0a0908;
+    border-bottom:1px solid #161a1d;
+    border-top:1px solid #161a1d;
+}
+.linkme{
+    background-color: #0b090a;
+}
+.knowme{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 25px 0; 
+    line-height: 40px;
+    font-size:30px;
+}
+.myimg{
+    background-image: url("me.jpg");
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.mytxt{
+    text-align: Center;
+    Color: white;
+    width: 500px;
+}
+.mytxt p {
+    border-bottom:1px solid #161a1d;
+    padding: 20px 0;
+}
+.mytxt a, .mytxt a:visited{
+    text-decoration: none;
+    border:0.5px solid skyblue;
+    padding:0.5px 10px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.mytxt a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+.mytxt h1{
+    font-size:48px;
+    font-weight: 800;
+}
+.mytxt h2  {
+    font-size:42px;
+    padding: 30px 0;
+    font-weight: 600;
+    border-bottom: 1px solid #161a1d;
+}
+.mytxt h3{
+    font-size:24px;
+    padding: 20px 0;
+    line-height: 20px;
+}
