@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+ background-color: rgb(8,8,8);
+ font-family: 'Open Sans Condensed', sans-serif;
+}
+section{
+    width:100%;
+}
+.header1{
+    background-image: url("3418405.jpg");
+    height: 1000px;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    
+}
+.text1{
+    width:30%;
+    color: white;
+    background-color: rgb(36,36,35,0.8);
+    margin-left: 10%;
+    margin-top:10%;
+    margin-bottom: 3%;
+    padding: 50px;
+}
+.text1 h1{
+    font-weight: 700;
+}
+.part2{
+    height:859px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.left1{
+    width:50%;
+    height:859px;
+    background-image:url("088fd78.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.right1{
+    margin: 0 5%;
+    width:30%;
+    color:white;
+    font-size: 36px;
+    padding: 5%;
+}
+.right1 h1 {
+    font-weight: 800;
+}
+.part3{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left2{
+    font-size: 36px;
+    margin: 0 5%;
+    width:30%;
+    color:white;
+    padding: 5%;
+    line-height: normal;
+}
+.left2 p{
+    font-size: 30px;
+}
+.left2 h1 {
+    font-weight: 800;
+}
+.right2{
+    background-image: url("Schauspielerin.jpg");
+    height:859px;
+    width:50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.Galleryt{
+    width:100%;
+    font-size:48px;
+    font-weight: 400;
+    text-align: center;
+    color:white;
+    padding:20px 0;
+    background-color: #0a0908;
+    border-bottom:1px solid #161a1d;
+    border-top:1px solid #161a1d;
+}
+.Galleryt:hover{
+    background-color: #0b090a;
+}
+.worhtitle{
+    width:100%;
+    font-size:48px;
+    font-weight: 400;
+    text-align: center;
+    color:white;
+    padding:20px 0;
+    background-color: #0a0908;
+    border-bottom:1px solid #161a1d;
+    border-top:1px solid #161a1d;
+}
+.worhtitle:hover{
+    background-color: #0b090a;
+}
+.work{
+    color:white;
+    font-size: 30px;
+    background-image: url("work/bg.jpg");
+    background-size: 100%;
+}
+.work div{
+    text-align: center;
+    width:300px;
+    /*
+    background-color: rgba(36, 36, 35, 0.83);
+    */
+    background-color: rgba(255, 255, 255, 0.05);
+    margin:2%;
+    height: 400px;
+}
+.work div .workimg{
+    width: 95%;
+    height: 300px;
+    padding-top: 5%;
+    margin-bottom: 10px;
+}
+.work .workct{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.9);   
+    margin:0;
+    padding:0;
+}
+.gallerys{
+    display:flex;
+    flex-wrap: wrap;
+}
+.gallerys img{
+    width: 100%;
+}
+.ps1{
+    max-height:100%;
+    width:25%;
+}
+.ps2{
+    width:25%;
+    max-height:100%;
+}
+.ps3{
+    width:25%;
+    max-height:100%;
+}
+.ps4{
+    width:25%;
+    max-height:100%;
+}
+.ps1 img{
+    
+    max-height:100%;
+    display: block;
+}
+.ps2 img{
+    max-height:100%;
+    display: block;
+}
+.ps3 img{
+    max-height:100%;
+    display: block;
+}
+.ps4 img{
+    max-height:100%;
+    display: block;
+}
