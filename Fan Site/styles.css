@@ -174,7 +174,7 @@ section{
     height:100%;
     display:flex;
     flex-wrap: wrap;
-    background-color: rgba(0, 0, 0, 0.9);   
+    background-color: rgba(0, 0, 0, 0.98);   
     margin:0;
     padding:0;
 }
