@@ -335,8 +335,8 @@ section{
 }
 .myimg{
     background-image: url("me.jpg");
-    height:300px;
-    width:300px;
+    max-height:300px;
+    max-width:300px;
     border-radius: 50%;
     background-position: center;
     background-size: 100%;
@@ -410,6 +410,82 @@ section{
     }
     .ps1, .ps2, .ps3, .ps4{
         width:50%;
+    }
+    .header1{
+        background-image: url("3418405.jpg");
+        width:100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display:flex;
+        align-items: flex-end;
+        justify-content: center;
+        font-size: 30px;
+        height:50vw;
+    }
+    .text1{
+        width:100%;
+        color: white;
+        background-color: rgb(36,36,35,0.8);
+        margin: 0%;
+        padding: 1vw;
+        font-size: 3vw;
+
+        text-align: center;
+    }
+    .text1 h1{
+        font-weight: 700;
+    }
+
+    /*For her footer*/
+
+    .foot1{
+        background-image: url("f1.jpg");
+        width:100%;
+        height: 50vw;
+        background-size: cover;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        margin: 0%;
+        padding:0;
+    }
+    .left1f{
+        width:100%;
+        text-decoration:none;
+        font-size:3vw;
+        color: white;
+        background-color: rgb(36,36,35,0.5);
+        line-height: 7vw;
+        text-align: center;
+        margin: 0%;
+        padding:5% 0;
+    }
+    .myimg{
+        height:50vw;
+        width:50vw;
+    }
+    .mytxt h1{
+        font-size:10vw;
+        font-weight: 800;
+    }
+    .mytxt h2  {
+        font-size:7vw;
+        padding: 4vw 0;
+        font-weight: 600;
+        border-bottom: 1px solid #161a1d;
+    }
+    .mytxt h3{
+        font-size:4vw;
+        padding: 2vw 0;
+        line-height: 20px;
+    }
+    .mytxt p {
+        border-bottom:1vw solid #161a1d;
+        font-size: 5vw;
+        padding: 3vw 0;
     }
 }
 @media(max-width:650px) {
