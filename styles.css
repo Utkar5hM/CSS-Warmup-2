@@ -468,7 +468,9 @@ section{
         width:50vw;
     }
     .mytxt h1{
-        font-size:10vw;
+        padding-top: 3vw;
+        padding-bottom: 1vw;
+        font-size:8vw;
         font-weight: 800;
     }
     .mytxt h2  {
@@ -486,6 +488,19 @@ section{
         border-bottom:1vw solid #161a1d;
         font-size: 5vw;
         padding: 3vw 0;
+    }
+    /*titlesbars*/
+    .linkme{
+        font-size:8vw;
+    }
+    .linkher{
+        font-size:8vw;
+    }
+    .worhtitle{
+        font-size:8vw;
+    }
+    .Galleryt{
+        font-size:8vw;
     }
 }
 @media(max-width:650px) {
